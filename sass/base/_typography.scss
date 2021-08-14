@@ -2,11 +2,64 @@
 
 * {
 	font-family: $font-primary;
+	line-height: 1.5;
 }
 
 .heading {
-	font-family: $font-primary;
+	&__primary,
+	&__secondary,
+	&__tertiary {
+		font-family: $font-primary;
+		font-weight: 700;
+		color: $color-black;
+		text-align: center;
+		width: 100%;
+	}
+
 	&__primary {
-		font-size: 1.8rem;
+		font-size: 3rem;
+		letter-spacing: -1px;
+		position: relative;
+		margin: 1rem 0;
+
+		&::before {
+			content: "";
+			width: 4rem;
+			height: 2px;
+			background-color: $color-primary;
+			opacity: 0.5;
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			top: -0.5rem;
+		}
+		&::after {
+			content: "";
+			width: 4rem;
+			height: 2px;
+			background-color: $color-primary;
+			opacity: 0.5;
+			position: absolute;
+			bottom: -0.5rem;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+
+	&__secondary {
+		font-size: 2.125rem;
+		margin-bottom: 2rem;
+	}
+
+	&__tertiary {
+		font-size: 1.5rem;
+		letter-spacing: 0.25px;
+		margin-bottom: 1rem;
+	}
+
+	&__primary--light,
+	&__secondary--light,
+	&__tertiary--light {
+		color: $color-primary-light;
 	}
 }

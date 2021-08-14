@@ -1,0 +1,25 @@
+.about {
+	&__section:first-of-type {
+		background-color: $color-primary-dark;
+		color: $color-primary-light;
+		margin-bottom: 0;
+		padding: 4rem 0.5rem 3rem 0.5rem;
+	}
+
+	&__section {
+		margin-bottom: 3rem;
+	}
+
+	&__image {
+		max-width: 100vw;
+		height: auto;
+	}
+
+	&__text {
+		font-size: 1.2rem;
+		font-weight: 400;
+		color: $color-black;
+		margin-bottom: 1rem;
+		padding: 0 0.75rem;
+	}
+}
