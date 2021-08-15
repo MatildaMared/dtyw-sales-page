@@ -103,8 +103,9 @@ body {
       content: "\1F9E1";
       margin-left: -30px; }
   .course__section:first-of-type {
-    background-color: #40575c;
-    color: #e6f5f1;
+    background: linear-gradient(to bottom right, #40575ce3, #779990dc), url("/assets/forest.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
     padding: 6rem 1rem 5rem 1rem; }
   .course__divider {
     max-width: 15rem;
@@ -116,8 +117,9 @@ body {
 .content {
   margin-bottom: 6rem; }
   .content__section:first-of-type {
-    background-color: #40575c;
-    color: #e6f5f1;
+    background: linear-gradient(to bottom right, #40575ce3, #486268be), url("/assets/forest.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
     margin-bottom: 0;
     padding: 6rem 1rem 5rem 1rem;
     margin-bottom: 3rem; }
@@ -187,7 +189,7 @@ body {
     background-color: #e6f5f1;
     min-width: 12rem;
     margin: 2rem 0;
-    opacity: 0.4; }
+    opacity: 0.5; }
   .header__subtext {
     color: #e6f5f1;
     text-transform: uppercase;
@@ -199,7 +201,9 @@ body {
 .about {
   margin-bottom: 6rem; }
   .about__section:first-of-type {
-    background-color: #40575c;
+    background: linear-gradient(to bottom right, #40575ce3, #486268be), url("/assets/forest.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
     margin-bottom: 0;
     padding: 6rem 1rem 5rem 1rem; }
   .about__section {
@@ -237,11 +241,13 @@ body {
   margin-bottom: 6rem; }
   .offer__section:first-of-type {
     padding: 6rem 1rem 5rem 1rem;
-    background-color: #40575c;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    background: linear-gradient(to bottom right, #40575ce3, #486268be), url("/assets/forest.jpg") no-repeat;
+    background-size: cover;
+    background-position: center; }
   .offer__section {
     margin-bottom: 2rem; }
-  .offer__item, .offer__price, .offer__text {
+  .offer__item, .offer__price, .offer__text, .offer__discount {
     font-size: 1.2rem;
     padding: 0 1rem;
     margin-bottom: 1rem;
@@ -252,11 +258,14 @@ body {
     .offer__item::before {
       content: "\1F9E1";
       margin-left: -30px; }
-  .offer__price {
+  .offer__price, .offer__discount {
     width: 14rem;
     max-width: 100%;
     text-align: center;
     margin: 0 auto; }
+  .offer__discount {
+    font-weight: bold;
+    color: #be1313; }
   .offer__divider {
     max-width: 15rem;
     height: 2px;
