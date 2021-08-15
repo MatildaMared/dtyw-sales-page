@@ -16,24 +16,11 @@
 
 	&__item,
 	&__price,
-	&__text,
-	&__discount {
+	&__text {
 		padding: 0 1rem;
-		margin-bottom: 1rem;
 	}
 
-	&__item {
-		list-style-type: none;
-		margin-left: 2.5rem;
-
-		&::before {
-			content: "\1F9E1";
-			margin-left: -30px;
-		}
-	}
-
-	&__price,
-	&__discount {
+	&__price {
 		width: 14rem;
 		max-width: 100%;
 		text-align: center;

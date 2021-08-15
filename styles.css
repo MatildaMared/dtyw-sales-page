@@ -273,16 +273,9 @@ a {
     background-position: center; }
   .offer__section {
     margin-bottom: 2rem; }
-  .offer__item, .offer__price, .offer__text, .offer__discount {
-    padding: 0 1rem;
-    margin-bottom: 1rem; }
-  .offer__item {
-    list-style-type: none;
-    margin-left: 2.5rem; }
-    .offer__item::before {
-      content: "\1F9E1";
-      margin-left: -30px; }
-  .offer__price, .offer__discount {
+  .offer__item, .offer__price, .offer__text {
+    padding: 0 1rem; }
+  .offer__price {
     width: 14rem;
     max-width: 100%;
     text-align: center;
