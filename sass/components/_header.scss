@@ -1,0 +1,39 @@
+.header {
+	min-height: 60vh;
+	height: auto;
+	padding: 6rem 2rem;
+	background: linear-gradient(to bottom right, #40575ccc, #779990c4),
+		url("/assets/freedom.jpeg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	&__heading {
+		font-size: 3rem;
+		font-weight: 900;
+		color: $color-primary-light;
+		letter-spacing: 2px;
+		text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+	}
+
+	&__divider {
+		height: 3px;
+		background-color: $color-primary-light;
+		min-width: 12rem;
+		margin: 2rem 0;
+		opacity: 0.4;
+	}
+
+	&__subtext {
+		color: $color-primary-light;
+		text-transform: uppercase;
+		font-size: 1.2rem;
+		font-weight: 500;
+		letter-spacing: 2px;
+		opacity: 0.8;
+	}
+}
