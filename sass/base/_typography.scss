@@ -34,13 +34,14 @@ a {
 		color: $color-black;
 		text-align: center;
 		width: 100%;
+		max-width: 50rem;
+		margin: 0 auto;
 	}
 
 	&__primary {
 		font-size: 3rem;
 		letter-spacing: -1px;
 		position: relative;
-		margin: 1rem 0;
 
 		&::before {
 			content: "";

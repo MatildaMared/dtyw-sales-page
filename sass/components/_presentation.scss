@@ -9,7 +9,16 @@
 		padding: 6rem 1rem 5rem 1rem;
 	}
 
+	&__section {
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
 	&__image {
+		max-width: 30rem;
 		border-radius: 50%;
 		padding: 3rem;
 		margin: 0 auto;
