@@ -1,7 +1,8 @@
 .about {
+	margin-bottom: 6rem;
+
 	&__section:first-of-type {
 		background-color: $color-primary-dark;
-		color: $color-primary-light;
 		margin-bottom: 0;
 		padding: 6rem 1rem 5rem 1rem;
 	}
