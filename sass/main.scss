@@ -1,5 +1,6 @@
 @import "./abstracts/variables";
 
+@import "./base/base";
 @import "./base/reset";
 @import "./base/typography";
 
@@ -8,5 +9,7 @@
 @import "./components/footer";
 @import "./components/header";
 @import "./components/about";
+@import "./components/introduction";
 @import "./components/btn";
 @import "./components/offer";
+@import "./components/presentation";

@@ -1,8 +1,13 @@
 .footer {
 	padding: 3rem 0.5rem 2rem 0.5rem;
 	background-color: $color-primary-dark;
-	color: $color-primary-light;
 	text-align: center;
+
+	& p,
+	& a {
+		color: $color-primary-light;
+		font-size: 1rem;
+	}
 
 	&__copyright {
 		margin-bottom: 0.5rem;

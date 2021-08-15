@@ -5,6 +5,26 @@
 	line-height: 1.5;
 }
 
+strong {
+	font-weight: bold;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $color-black;
+}
+
+p,
+li,
+a {
+	font-size: 1.2rem;
+}
+
 .heading {
 	&__primary,
 	&__secondary,
