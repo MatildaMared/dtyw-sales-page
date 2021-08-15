@@ -12,10 +12,12 @@
 	}
 
 	&__item,
-	&__price {
+	&__price,
+	&__text {
 		font-size: 1.2rem;
 		padding: 0 1rem;
 		margin-bottom: 1rem;
+		color: $color-black;
 	}
 
 	&__item {
@@ -41,6 +43,16 @@
 		background-color: $color-primary;
 		margin: 1.5rem auto;
 		opacity: 0.5;
+	}
+
+	&__countdown {
+		padding: 3rem 0;
+		background-color: $color-primary-dark;
+		margin-bottom: 3rem;
+
+		& img {
+			margin: 0 auto;
+		}
 	}
 
 	strong {

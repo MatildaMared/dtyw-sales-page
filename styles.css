@@ -8,7 +8,8 @@ html {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  box-sizing: border-box; }
 
 article,
 aside,
@@ -72,15 +73,45 @@ body {
 
 .heading__secondary {
   font-size: 2.125rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  margin-top: 4rem; }
 
 .heading__tertiary {
   font-size: 1.5rem;
   letter-spacing: 0.25px;
-  margin-bottom: 1rem; }
+  margin-bottom: 1.5rem;
+  margin-top: 3rem; }
 
 .heading__primary--light, .heading__secondary--light, .heading__tertiary--light {
   color: #e6f5f1; }
+
+.course {
+  margin-bottom: 6rem;
+  max-width: 100%; }
+  .course__section {
+    margin-bottom: 3rem; }
+    .course__section > * {
+      padding: 0 1rem; }
+  .course__text, .course__item {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #2f2f2f; }
+  .course__item {
+    list-style-type: none;
+    margin-left: 2.5rem; }
+    .course__item::before {
+      content: "\1F9E1";
+      margin-left: -30px; }
+  .course__section:first-of-type {
+    background-color: #40575c;
+    color: #e6f5f1;
+    padding: 6rem 1rem 5rem 1rem; }
+  .course__divider {
+    max-width: 15rem;
+    height: 2px;
+    background-color: #779990;
+    margin: 1.5rem auto;
+    opacity: 0.5; }
 
 .content {
   margin-bottom: 6rem; }
@@ -94,7 +125,9 @@ body {
     margin-bottom: 3rem;
     padding: 0 1rem; }
   .content__text {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #2f2f2f; }
   .content__divider {
     max-width: 15rem;
     height: 2px;
@@ -176,10 +209,11 @@ body {
     margin-bottom: 0; }
   .offer__section {
     margin-bottom: 2rem; }
-  .offer__item, .offer__price {
+  .offer__item, .offer__price, .offer__text {
     font-size: 1.2rem;
     padding: 0 1rem;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    color: #2f2f2f; }
   .offer__item {
     list-style-type: none;
     margin-left: 2.5rem; }
@@ -197,5 +231,11 @@ body {
     background-color: #779990;
     margin: 1.5rem auto;
     opacity: 0.5; }
+  .offer__countdown {
+    padding: 3rem 0;
+    background-color: #40575c;
+    margin-bottom: 3rem; }
+    .offer__countdown img {
+      margin: 0 auto; }
   .offer strong {
     font-weight: 700; }

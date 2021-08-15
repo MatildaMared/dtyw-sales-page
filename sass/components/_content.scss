@@ -16,6 +16,8 @@
 
 	&__text {
 		margin-bottom: 2rem;
+		font-size: 1.2rem;
+		color: $color-black;
 	}
 
 	&__divider {
@@ -26,9 +28,9 @@
 		opacity: 0.5;
 	}
 
-  &__spacing {
-    margin: 4rem 0;
-    height: 4rem;
-    background-color: $color-primary;
-  }
+	&__spacing {
+		margin: 4rem 0;
+		height: 4rem;
+		background-color: $color-primary;
+	}
 }

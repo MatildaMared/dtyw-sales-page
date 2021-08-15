@@ -1,0 +1,43 @@
+.course {
+	margin-bottom: 6rem;
+	max-width: 100%;
+
+	&__section {
+		margin-bottom: 3rem;
+
+		> * {
+			padding: 0 1rem;
+		}
+	}
+
+	&__text,
+	&__item {
+		font-size: 1.2rem;
+		margin-bottom: 1rem;
+		color: $color-black;
+	}
+
+	&__item {
+		list-style-type: none;
+		margin-left: 2.5rem;
+
+		&::before {
+			content: "\1F9E1";
+			margin-left: -30px;
+		}
+	}
+
+	&__section:first-of-type {
+		background-color: $color-primary-dark;
+		color: $color-primary-light;
+		padding: 6rem 1rem 5rem 1rem;
+	}
+
+	&__divider {
+		max-width: 15rem;
+		height: 2px;
+		background-color: $color-primary;
+		margin: 1.5rem auto;
+		opacity: 0.5;
+	}
+}
