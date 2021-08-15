@@ -3,7 +3,7 @@
 		background-color: $color-primary-dark;
 		color: $color-primary-light;
 		margin-bottom: 0;
-		padding: 4rem 1rem 3rem 1rem;
+		padding: 6rem 1rem 5rem 1rem;
 	}
 
 	&__section {
@@ -13,6 +13,7 @@
 	&__image {
 		max-width: 100vw;
 		height: auto;
+		overflow: hidden;
 	}
 
 	&__text {
