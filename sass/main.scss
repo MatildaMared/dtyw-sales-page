@@ -4,14 +4,15 @@
 @import "./base/reset";
 @import "./base/typography";
 
-@import "./components/course";
-@import "./components/content";
-@import "./components/footer";
-@import "./components/header";
-@import "./components/about";
-@import "./components/introduction";
+@import "./components/section-header";
 @import "./components/icon";
 @import "./components/btn";
-@import "./components/offer";
-@import "./components/presentation";
-@import "./components/section-header";
+
+@import "./layout/course";
+@import "./layout/content";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/about";
+@import "./layout/introduction";
+@import "./layout/offer";
+@import "./layout/presentation";

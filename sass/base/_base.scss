@@ -6,15 +6,24 @@ p {
 
 li {
 	list-style-type: none;
-	margin-left: 2.5rem;
-	margin-bottom: 1rem;
+	margin-left: 3.5rem;
+	margin-bottom: 2rem;
 
 	&::before {
 		content: "\1F9E1";
-		margin-left: -30px;
+		margin-right: 1rem;
+		margin-left: -42px;
 	}
 }
 
 p {
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 }
+
+// @media screen and (min-width: 1000px) {
+// 	li {
+// 		&::before {
+// 			margin-left: -50px;
+// 		}
+// 	}
+// }

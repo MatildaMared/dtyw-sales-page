@@ -18,3 +18,11 @@
 		opacity: 0.5;
 	}
 }
+
+@media screen and (min-width: 1200px) {
+	.course {
+		&__content {
+			margin: 8rem 0;
+		}
+	}
+}
