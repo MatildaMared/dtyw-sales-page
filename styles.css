@@ -126,11 +126,6 @@ a {
     margin-bottom: 3rem; }
     .course__section > * {
       padding: 0 1rem; }
-  .course__section:first-of-type {
-    background: linear-gradient(to bottom right, #40575ce3, #486268be), url("/assets/forest.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 6rem 1rem 5rem 1rem; }
   .course__divider {
     max-width: 15rem;
     height: 2px;
@@ -140,13 +135,6 @@ a {
 
 .content {
   margin-bottom: 6rem; }
-  .content__section:first-of-type {
-    background: linear-gradient(to bottom right, #40575ce3, #486268be), url("/assets/forest.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 0;
-    padding: 6rem 1rem 5rem 1rem;
-    margin-bottom: 3rem; }
   .content__section {
     margin-bottom: 3rem;
     padding: 0 1rem; }
@@ -225,12 +213,6 @@ a {
 
 .about {
   margin-bottom: 6rem; }
-  .about__section:first-of-type {
-    background: linear-gradient(to bottom right, #40575ce3, #486268be), url("/assets/forest.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 0;
-    padding: 6rem 1rem 5rem 1rem; }
   .about__section {
     margin-bottom: 3rem;
     display: flex;
@@ -276,12 +258,6 @@ a {
 
 .offer {
   margin-bottom: 6rem; }
-  .offer__section:first-of-type {
-    padding: 6rem 1rem 5rem 1rem;
-    margin-bottom: 0;
-    background: linear-gradient(to bottom right, #40575ce3, #486268be), url("/assets/forest.jpg") no-repeat;
-    background-size: cover;
-    background-position: center; }
   .offer__section {
     margin-bottom: 2rem; }
   .offer__item, .offer__price, .offer__text {
@@ -311,11 +287,6 @@ a {
 
 .presentation {
   margin-bottom: 6rem; }
-  .presentation__section:first-of-type {
-    background: linear-gradient(to bottom right, #40575ce3, #486268be), url("/assets/forest.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 6rem 1rem 5rem 1rem; }
   .presentation__section {
     margin: 0 auto;
     display: flex;
@@ -330,3 +301,10 @@ a {
   .presentation__text {
     margin-bottom: 1rem;
     padding: 0 1rem; }
+
+.section-header {
+  background: linear-gradient(to bottom right, #40575ce3, #486268be), url("/assets/forest.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+  padding: 6rem 1rem 5rem 1rem; }

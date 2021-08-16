@@ -10,14 +10,6 @@
 		}
 	}
 
-	&__section:first-of-type {
-		background: linear-gradient(to bottom right, #40575ce3, #486268be),
-			url("/assets/forest.jpg") no-repeat;
-		background-size: cover;
-		background-position: center;
-		padding: 6rem 1rem 5rem 1rem;
-	}
-
 	&__divider {
 		max-width: 15rem;
 		height: 2px;
