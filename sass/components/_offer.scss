@@ -3,6 +3,10 @@
 
 	&__section {
 		margin-bottom: 2rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	&__item,
@@ -12,8 +16,7 @@
 	}
 
 	&__price {
-		width: 14rem;
-		max-width: 100%;
+		max-width: 15rem;
 		text-align: center;
 		margin: 0 auto;
 	}

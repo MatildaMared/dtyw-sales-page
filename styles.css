@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;600;700;800;900&display=swap");
 ul,
 p {
   max-width: 40rem;
@@ -73,16 +74,15 @@ a {
 
 .heading__primary, .heading__secondary, .heading__tertiary {
   text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   width: 100%;
   max-width: 50rem;
   margin: 0 auto; }
 
 .heading__primary {
   font-size: 3rem;
-  letter-spacing: -1px;
-  position: relative; }
+  position: relative;
+  font-family: "Epilogue", sans-serif; }
   .heading__primary::before {
     content: "";
     width: 4rem;
@@ -106,7 +106,7 @@ a {
 
 .heading__secondary {
   color: #557e73;
-  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 2rem;
@@ -114,9 +114,9 @@ a {
   margin-top: 4rem; }
 
 .heading__tertiary {
+  font-family: "Epilogue", sans-serif;
   color: #40575c;
   font-size: 1.5rem;
-  letter-spacing: 0.25px;
   margin-bottom: 1.5rem;
   margin-top: 3rem; }
 
@@ -142,6 +142,11 @@ a {
   .content__section {
     margin-bottom: 3rem;
     padding: 0 1rem; }
+  .content__part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
   .content__text {
     margin-bottom: 2rem; }
   .content__divider {
@@ -196,8 +201,9 @@ a {
   align-items: center;
   flex-direction: column; }
   .header__heading {
+    font-family: "Epilogue", sans-serif;
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 800;
     color: #e6f5f1;
     letter-spacing: 2px;
     text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
@@ -242,6 +248,15 @@ a {
     margin: 2rem auto;
     opacity: 0.5; }
 
+.icon {
+  font-size: 4rem;
+  color: #779990;
+  line-height: 1;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+  margin-left: 0 auto;
+  margin-right: 0 auto; }
+
 .btn {
   display: block;
   cursor: pointer;
@@ -263,12 +278,15 @@ a {
 .offer {
   margin-bottom: 6rem; }
   .offer__section {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
   .offer__item, .offer__price, .offer__text {
     padding: 0 1rem; }
   .offer__price {
-    width: 14rem;
-    max-width: 100%;
+    max-width: 15rem;
     text-align: center;
     margin: 0 auto; }
   .offer__discount {
