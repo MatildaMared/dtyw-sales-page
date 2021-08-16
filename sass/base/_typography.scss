@@ -29,10 +29,9 @@ a {
 	&__primary,
 	&__secondary,
 	&__tertiary {
+		text-align: center;
 		font-family: $font-primary;
 		font-weight: 700;
-		color: $color-black;
-		text-align: center;
 		width: 100%;
 		max-width: 50rem;
 		margin: 0 auto;
@@ -68,12 +67,17 @@ a {
 	}
 
 	&__secondary {
-		font-size: 2.125rem;
+		color: #557e73;
+		text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 2rem;
 		margin-bottom: 2rem;
 		margin-top: 4rem;
 	}
 
 	&__tertiary {
+		color: $color-primary-dark;
 		font-size: 1.5rem;
 		letter-spacing: 0.25px;
 		margin-bottom: 1.5rem;

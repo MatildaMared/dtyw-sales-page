@@ -72,10 +72,9 @@ a {
   font-size: 1.2rem; }
 
 .heading__primary, .heading__secondary, .heading__tertiary {
+  text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  color: #2f2f2f;
-  text-align: center;
   width: 100%;
   max-width: 50rem;
   margin: 0 auto; }
@@ -106,11 +105,16 @@ a {
     transform: translateX(-50%); }
 
 .heading__secondary {
-  font-size: 2.125rem;
+  color: #557e73;
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 2rem;
   margin-bottom: 2rem;
   margin-top: 4rem; }
 
 .heading__tertiary {
+  color: #40575c;
   font-size: 1.5rem;
   letter-spacing: 0.25px;
   margin-bottom: 1.5rem;
