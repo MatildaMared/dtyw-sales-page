@@ -486,7 +486,8 @@ a {
     height: auto;
     border-radius: 50%;
     padding: 3rem;
-    margin: 0 auto; }
+    margin: 0 auto;
+    object-fit: cover; }
   .presentation__text {
     margin-bottom: 1rem;
     padding: 0 1rem; }
