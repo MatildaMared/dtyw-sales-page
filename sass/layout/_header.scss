@@ -14,11 +14,15 @@
 
 	&__heading {
 		font-family: $font-secondary;
-		font-size: 3rem;
+		font-size: 2.6rem;
 		font-weight: 800;
 		color: $color-primary-light;
 		letter-spacing: 2px;
 		text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+
+		@media (min-width: 800px) {
+			font-size: 3rem;
+		}
 	}
 
 	&__divider {
@@ -38,7 +42,6 @@
 		opacity: 0.8;
 	}
 }
-
 
 @media screen and (min-width: 1200px) {
 	.header {

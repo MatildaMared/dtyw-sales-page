@@ -190,7 +190,8 @@ a {
 
 .course {
   margin-bottom: 6rem;
-  max-width: 100%; }
+  max-width: 100%;
+  overflow: hidden; }
   .course__section {
     margin-bottom: 3rem; }
     .course__section > * {
@@ -207,7 +208,9 @@ a {
     margin: 8rem 0; } }
 
 .content {
-  margin-bottom: 6rem; }
+  margin-bottom: 6rem;
+  max-width: 100%;
+  overflow: hidden; }
   .content__section {
     margin-bottom: 3rem;
     padding: 0 1rem; }
@@ -300,11 +303,14 @@ a {
   flex-direction: column; }
   .header__heading {
     font-family: "Epilogue", sans-serif;
-    font-size: 3rem;
+    font-size: 2.6rem;
     font-weight: 800;
     color: #e6f5f1;
     letter-spacing: 2px;
     text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+    @media (min-width: 800px) {
+      .header__heading {
+        font-size: 3rem; } }
   .header__divider {
     height: 3px;
     background-color: #e6f5f1;
@@ -328,7 +334,9 @@ a {
       font-size: 1.8rem; } }
 
 .about {
-  margin-bottom: 6rem; }
+  margin-bottom: 6rem;
+  max-width: 100%;
+  overflow: hidden; }
   .about__section {
     margin-bottom: 3rem;
     display: flex;
@@ -371,7 +379,9 @@ a {
 
 .introduction {
   margin: 6rem 0 6rem 0;
-  padding: 0 1rem; }
+  padding: 0 1rem;
+  max-width: 100%;
+  overflow: hidden; }
   .introduction__divider {
     max-width: 15rem;
     height: 2px;
@@ -392,7 +402,9 @@ a {
       display: none; } }
 
 .offer {
-  margin-bottom: 6rem; }
+  margin-bottom: 6rem;
+  max-width: 100%;
+  overflow: hidden; }
   .offer__section {
     margin-bottom: 2rem;
     display: flex;
@@ -457,7 +469,9 @@ a {
     margin: 4rem; } }
 
 .presentation {
-  margin-bottom: 6rem; }
+  margin-bottom: 6rem;
+  max-width: 100%;
+  overflow: hidden; }
   .presentation__content {
     margin-top: 3rem; }
   .presentation__section {
@@ -467,7 +481,8 @@ a {
     justify-content: center;
     align-items: center; }
   .presentation__image {
-    max-width: 30rem;
+    width: 100%;
+    max-width: 35rem;
     border-radius: 50%;
     padding: 3rem;
     margin: 0 auto; }

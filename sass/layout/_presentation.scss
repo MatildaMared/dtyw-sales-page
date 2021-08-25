@@ -1,5 +1,7 @@
 .presentation {
 	margin-bottom: 6rem;
+	max-width: 100%;
+	overflow: hidden;
 
 	&__content {
 		margin-top: 3rem;
@@ -14,7 +16,8 @@
 	}
 
 	&__image {
-		max-width: 30rem;
+		width: 100%;
+		max-width: 35rem;
 		border-radius: 50%;
 		padding: 3rem;
 		margin: 0 auto;
